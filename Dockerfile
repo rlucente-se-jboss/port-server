@@ -17,5 +17,5 @@ EXPOSE 5901
 
 USER 1000
 
-CMD /bin/nc -l 5901
+CMD /bin/nc -l 5901 >> /tmp/nc-server.out
 
